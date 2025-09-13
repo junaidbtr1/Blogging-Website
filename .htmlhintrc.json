@@ -1,0 +1,16 @@
+{
+  "name": "blogging-website",
+  "version": "1.0.0",
+  "description": "Photography portfolio website",
+  "scripts": {
+    "build": "parcel build src/*.html --public-url ./",
+    "lint:html": "htmlhint src/**/*.html",
+    "lint:css": "stylelint styles/**/*.css"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "parcel": "^2.10.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}
